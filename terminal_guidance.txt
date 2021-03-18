@@ -1,0 +1,152 @@
+Filenames
+=========
+name.extension
+name rules:
+  - Windows is NOT case sensitive but Linux and Mac ARE case sensitive
+  - Spaces ARE kinda-sorta allowed, but are a pain in the bum from the command prompt
+    * so avoid them
+  - Valid characters include [A-Za-z0-9] \w as well as - and _ and . and ( and )
+  - Can't end in a .
+  - Can start with a .
+    * on Mac/Linux this means the file is "hidden"
+extension:
+  - The charactes after the LAST .
+  - Indicates the TYPE of file
+  - Usually how the OS determines the associate application(s)
+
+PaulsNoNonsenseCrap.docx
+Pauls.No.Nonsense.Crap.docx
+Pauls-No-Nonsense-Crap.docx
+
+docx    Word
+pptx    Powerpoint
+xlsx    Excel
+txt     Text
+py      Python
+exe     Executable (Windows)
+bat     Windows Batch Filenames (vestige left over from DOS)
+cmd     Windows Batch Filenames
+sh      Unix shell script
+xml     eXtensible Markup Language
+json    JSON file
+zip     Compressed Archive
+
+File Management Basics
+======================
+Windows     Linux       Description
+-----------------------------------
+dir         ls          List directory contents
+cd          cd          Change CURRENT or PRESENT Working Directory
+cd          pwd         Display present working directory
+mkdir, md   mkdir       Create a directory
+rmdir, rd   rm          Remove an EMPTY directory
+rd /s       rm -r       RECURSIVELY remove files and subdirectories (DANGER!!!!!!!!)
+ren         mv          RENAME a file or directory
+move        mv          MOVE a file or directory
+type        cat         Show the contents of a text file
+more        more, less  Page through a long text file
+
+Command Line Switches (aka argument or parameter or option)
+Windows USUALLY it is COMMAND /switch1 /switch2
+Linux USUALLY it is   COMMAND --switch1 --switch2 -s
+
+
+
+File Addressing
+===============
+
+WINDOWS
+
+z:                          (drive letter)
+    \                       (root directory)
+        \docs
+            puppy.txt
+            kitty.txt
+        \hobbies
+            \woodwork
+                plans.txt
+                todo.txt
+            favorites.txt
+        mystuff.txt
+        budget.txt
+
+EXAMLES -- PWD means Present Working Directory
+
+PWD: c:\windows
+    budget.txt ==> type z:\budget.txt    (ABSOLUTE path)
+
+PWD: z:\
+    budget.txt ==> type z:\budget.txt    (ABSOLUTE path)
+                   type \budget.txt      (Absolute path relative to current drive)
+                   type budget.txt       (RELATIVE path)
+                   type .\budget.txt     (RELATIVE path funkified version)
+    puppy.txt ==>   type \docs\puppy.txt (ABS)
+                    type docs\puppy.txt  (REL)
+    todo.txt ==>    type hobbies\woodwork\todo.txt
+
+PWD: z:\docs
+    kitty.txt ==>   type kitty.txt
+    mystuff.txt ==> type \mystuff.txt (ABS)
+                    type ..\mystuff.txt (REL)
+    todo.txt ==>    type ..\hobbies\woodwork\todo.txt
+
+PWD: z:\hobbies\woodwork
+    favorites.txt ==> type ..\favorites.txt (REL)
+                      type \hobbies\favorites.txt
+    puppy.txt ==>     type ..\..\docs\puppy.txt
+
+
+Linux / Mac (BASICALLY the same but swap the \ to / and there are no lettered drives)
+
+    /                           (root directory..note NO drive letters here)
+        /docs
+            puppy.txt
+            kitty.txt
+        /hobbies
+            /woodwork
+                plans.txt
+                todo.txt
+            favorites.txt
+        mystuff.txt
+        budget.txt
+
+PWD: /
+    budget.txt ==> cat /budget.txt      (Absolute path relative to current drive)
+                   cat budget.txt       (RELATIVE path)
+                   cat ./budget.txt     (RELATIVE path funkified version)
+    puppy.txt ==>   cat /docs/puppy.txt (ABS)
+                    cat docs/puppy.txt  (REL)
+    todo.txt ==>    cat hobbies/woodwork\todo.txt
+
+PWD: /docs
+    kitty.txt ==>   cat kitty.txt
+    mystuff.txt ==> cat /mystuff.txt (ABS)
+                    cat ../mystuff.txt (REL)
+    todo.txt ==>    cat ../hobbies/woodwork/todo.txt
+
+PWD: /hobbies/woodwork
+    favorites.txt ==> cat ../favorites.txt (REL)
+                      cat /hobbies/favorites.txt
+    puppy.txt ==>     cat ../../docs/puppy.txt
+
+
+Output Redirection
+==================
+Standard I/O -- Input and Output from console applications
+  - default: input is KEYBOARD
+  - default: output is SCREEN
+
+FILE Redirection
+----------------
+Output of a command is sent to a file.
+
+COMMAND > FILENAME     ==> Outputs command ouput to a specified file (OVERWRITES THE CONTENTS)
+COMMAND >> FILENAME    ==> Outputs command ouput to a specified file (APPENDS to the current file)
+
+PIPED Redirection
+-----------------
+Output of a command is used as the input for another command. Think
+of it as copying the output from one command and then running the
+second command and pasting what you just copied.
+
+COMMAND_1 | COMMAND_2
