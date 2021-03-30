@@ -5,7 +5,8 @@ print(f"MAIN: {__name__}")
 # from mathy import *
 # from mathy import circle_area, pi
 from mathy import circle_area
-from mathy import pi as pie
+from mathy import pi as pie     # ALIAS A VARIABLE OR FUNCTION
+import mathy as m               # ALIAS AN ENTIRE MODULE
 import __main__  # THANKFULLY DOESN'T WORK
 
 pi = 123
