@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Gray, Elizabeth",
+        "rank": "Associate Professor",
+        "college": "Medical College of Georgia",
+        "department": "Medicine",
+        "image": "https://www.augusta.edu/faculty/directory/images/user.png",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=ELGRAY",
+        "location": "SE CAMPUS -  SAVANNAH",
+        "appointments": [
+            "Medical College of Georgia / Department of Medicine"
+        ]
+    },
+    {
+        "name": "Grayson, James",
+        "rank": "Professor",
+        "college": "James M. Hull College of Business",
+        "image": "https://www.augusta.edu/faculty/directory/images/faculty/jgrayson.jpg",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=jgrayson",
+        "phone": "(706) 667-4532",
+        "location": "AH E138",
+        "appointments": [
+            "James M. Hull College of Business",
+            "The Graduate School"
+        ]
+    }
+]
