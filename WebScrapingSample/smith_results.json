@@ -1,0 +1,149 @@
+[
+    {
+        "name": "NeSmith, Beth",
+        "rank": "Department Chair, Physiological and Technological Nursing",
+        "college": "College of Nursing",
+        "department": "Physiological and Technological Nursing",
+        "image": "https://www.augusta.edu/faculty/directory/images/faculty/bnesmith.jpg",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=BNESMITH",
+        "phone": "(706) 721-3101",
+        "location": "EC 5448",
+        "appointments": [
+            "College of Nursing / Department of Physiological and Technological Nursing",
+            "College of Nursing",
+            "Medical College of Georgia / Department of Surgery",
+            "The Graduate School"
+        ]
+    },
+    {
+        "name": "NeSmith, Shelby",
+        "rank": "Instructor",
+        "college": "College of Nursing",
+        "department": "Physiological and Technological Nursing",
+        "image": "https://www.augusta.edu/faculty/directory/images/user.png",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=SWILLIAMS14",
+        "phone": "(706) 721-7166",
+        "location": "EC 5446",
+        "appointments": [
+            "College of Nursing / Department of Physiological and Technological Nursing"
+        ]
+    },
+    {
+        "name": "Smith, Arthur",
+        "college": "Emeritus Faculty",
+        "department": "Emeritus Faculty",
+        "image": "https://www.augusta.edu/faculty/directory/images/faculty/asmith.jpg",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=ASMITH",
+        "phone": "(706) 721-9977",
+        "location": "BA 8416",
+        "appointments": [
+            "Emeritus Faculty"
+        ]
+    },
+    {
+        "name": "Smith, C",
+        "college": "Emeritus Faculty",
+        "department": "Emeritus Faculty",
+        "image": "https://www.augusta.edu/faculty/directory/images/user.png",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=emeriti.csmith",
+        "appointments": [
+            "Emeritus Faculty"
+        ]
+    },
+    {
+        "name": "Smith, Deborah",
+        "rank": "Program Director, Biobehavioral Nursing",
+        "college": "College of Nursing",
+        "department": "Biobehavioral Nursing",
+        "image": "https://www.augusta.edu/faculty/directory/images/faculty/dsmith5.jpg",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=DSMITH5",
+        "phone": "(706) 721-4681",
+        "location": "EC 5503",
+        "appointments": [
+            "College of Nursing / Department of Biobehavioral Nursing",
+            "The Graduate School"
+        ]
+    },
+    {
+        "name": "Smith, James",
+        "rank": "Assistant Professor",
+        "college": "School of Computer and Cyber Sciences",
+        "department": "Computer & Cyber Sciences",
+        "image": "https://www.augusta.edu/faculty/directory/images/faculty/jasmith8.jpg",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=JASMITH8",
+        "phone": "(706) 729-2371",
+        "location": "UH 114",
+        "appointments": [
+            "School of Computer and Cyber Sciences / Department of Computer & Cyber Sciences",
+            "The Graduate School"
+        ]
+    },
+    {
+        "name": "Smith, Lachelle",
+        "rank": "Instructor",
+        "college": "Administration",
+        "department": "Instruction & Innovation",
+        "image": "https://www.augusta.edu/faculty/directory/images/user.png",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=LSMITH24",
+        "phone": "(706) 721-9910",
+        "location": "AB 2204",
+        "appointments": [
+            "Administration / Department of Instruction & Innovation"
+        ]
+    },
+    {
+        "name": "Smith, Melissa",
+        "rank": "Instructor",
+        "college": "College of Nursing",
+        "department": "Physiological and Technological Nursing",
+        "image": "https://www.augusta.edu/faculty/directory/images/faculty/melsmith.jpg",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=MELSMITH",
+        "phone": "(706) 721-7166",
+        "location": "EC 5446",
+        "appointments": [
+            "College of Nursing / Department of Physiological and Technological Nursing"
+        ]
+    },
+    {
+        "name": "Smith, Neal",
+        "rank": "Program Director, Mathematics",
+        "college": "College of Science and Mathematics",
+        "department": "Mathematics",
+        "image": "https://www.augusta.edu/faculty/directory/images/faculty/nsmith12.jpg",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=NSMITH12",
+        "phone": "(706) 737-1675",
+        "location": "AH N318",
+        "appointments": [
+            "College of Science and Mathematics / Department of Mathematics"
+        ]
+    },
+    {
+        "name": "Smith, Suzanne",
+        "rank": "Co-Director, AU Medical Associates",
+        "college": "Medical College of Georgia",
+        "department": "Neurology",
+        "image": "https://www.augusta.edu/faculty/directory/images/faculty/susmith.jpg",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=SUSMITH",
+        "phone": "(706) 721-1411",
+        "location": "FO",
+        "appointments": [
+            "Medical College of Georgia / Department of Neurology"
+        ]
+    },
+    {
+        "name": "Smith, Sylvia",
+        "rank": "Department Chair, Cellular Biology and Anatomy",
+        "college": "Medical College of Georgia",
+        "department": "Cellular Biology and Anatomy",
+        "image": "https://www.augusta.edu/faculty/directory/images/faculty/sbsmith.jpg",
+        "profile": "https://www.augusta.edu/faculty/directory/view.php?id=SBSMITH",
+        "phone": "(706) 721-3731",
+        "location": "CB 1109",
+        "appointments": [
+            "Medical College of Georgia / Department of Cellular Biology and Anatomy",
+            "Medical College of Georgia / Department of Culver Vision Discovery Inst",
+            "Medical College of Georgia / Department of Ophthalmology",
+            "The Graduate School"
+        ]
+    }
+]
